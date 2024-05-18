@@ -1,3 +1,3 @@
 # Sentimental_analysis
 
-![Uploading Output.png…]()
+![Uploading Output.png…]
