@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sentiment of Sentence</title>
+    <style>
+        body {
+            background: url('https://img.freepik.com/free-photo/sunset-fog-lake_395237-229.jpg?t=st=1716014581~exp=1716018181~hmac=1b891f817458642743841545035d7fb724ac4d351a04071af4a1a35f1db8f367&w=1380') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        p {
+            font-size: 18px;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sentiment of Sentence</h1>
+        <p>The text "<strong>{{ input_text }}</strong>" is classified as: <strong>{{ prediction }}</strong></p>
+        <a href="/">Go back</a>
+    </div>
+</body>
+</html>
